@@ -4,7 +4,7 @@
 
 [Microsoft Cognitive Services Emotion API](https://www.microsoft.com/cognitive-services/en-us/emotion-api) および [Microsoft Bot Framework v3.0](https://www.botframework.com/) による 表情判定BOT サンプルです。
 動作には Emotion API のサブスクリプションが必要です。
-開発環境や作成方法については、こちらををご覧ください。[5ステップでズバリ！笑顔判定BOT を作成しよう by Microsoft Bot Framework and Cognitive Services] (https://blogs.msdn.microsoft.com/bluesky/2016/11/15/5-step-tutorial-smilescorebot-bot-framework-cognitive-services-ja/)
+開発環境や作成方法については [5ステップでズバリ！笑顔判定BOT を作成しよう by Microsoft Bot Framework and Cognitive Services] (https://blogs.msdn.microsoft.com/bluesky/2016/11/15/5-step-tutorial-smilescorebot-bot-framework-cognitive-services-ja/) をご覧ください。
 
 This is emotion auto-detect sample bot by [Microsoft Cognitive Services Emotion API](https://www.microsoft.com/cognitive-services/en-us/emotion-api) and [Microsoft Bot Framework v3.0](https://www.botframework.com/)
 Emotion API Subscription needed to make this work.
