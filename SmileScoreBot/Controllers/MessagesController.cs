@@ -52,9 +52,10 @@ namespace SmileScoreBot
                         // [ja] 画像を判定、happiness スコアのみを取得して、返答メッセージにセット
                         // [en] Analyze photo, get only happiness score, set to reply message
                         Emotion[] emotionResult = await emotionServiceClient.RecognizeAsync(photoStream);
-                        Scores emotionScores = emotionResult[0].Scores;
-                        responseMsg = Math.Ceiling(emotionScores.Happiness * 100) + "% の笑顔ですね！"; /* [ja] */
-                        //responseMsg = Math.Ceiling(emotionScores.Happiness * 100) + "% Smile!"; /* [en] */
+                        float score = emotionResult[0].Scores.Happiness;
+                        responseMsg = Math.Ceiling(score * 100) + "% の笑顔ですね！"; /* [ja] */
+                        //responseMsg = Math.Ceiling(score * 100) + "% Smile!"; /* [en] */
+
                     }
                     catch (Exception e)
                     {
